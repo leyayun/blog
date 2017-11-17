@@ -23,14 +23,14 @@
 
 {% if theme.copyright %}
   <div class="powered-by">{#
-  #}{{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}{#
+  #}{{ __('footer.powered', '<a class="theme-link" href="https://hexo.io" rel="external nofollow">Hexo</a>') }}{#
 #}</div>
 
   <span class="post-meta-divider">|</span>
 
   <div class="theme-info">{#
   #}{{ __('footer.theme') }} &mdash; {#
-  #}<a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">{#
+  #}<a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow">{#
     #}NexT.{{ theme.scheme }}{#
   #}</a> v{{ theme.version }}{#
 #}</div>
