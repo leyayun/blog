@@ -10,7 +10,7 @@ tags:
     - stylelint
 ---
 
-如果你还不没有使用过`eslint`或`stylelint`，请先学习如何使用eslint和stylelint来做代码检测:
+如果你还没有使用过`eslint`或`stylelint`，请先学习如何使用eslint和stylelint来做代码检测:
 > 1. [eslint中文文档](http://eslint.cn/docs/user-guide/configuring)
 > 1. [stylelint文档](https://stylelint.io/)
 
@@ -59,6 +59,6 @@ tags:
 }
 ```
 
-完事！是不是简单到爆炸💥！！lint-staged和husky的详细配置，请参考相应的官方文档:
+完事！！！so easy有木有？？lint-staged和husky的详细配置，请参考相应的官方文档:
 1. [lint-staged文档](https://github.com/okonet/lint-staged)
 1. [husky文档](https://github.com/typicode/husky)
