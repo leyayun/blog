@@ -8,6 +8,7 @@ tags:
     - husky
     - eslint
     - stylelint
+    - pre-commit
 ---
 
 如果你还没有使用过`eslint`或`stylelint`，请先学习如何使用eslint和stylelint来做代码检测:
