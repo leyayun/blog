@@ -9,16 +9,17 @@ tags:
     - eslint
     - stylelint
     - pre-commit
+    - lint
 ---
 
-如果你还没有使用过`eslint`或`stylelint`，请先学习如何使用eslint和stylelint来做代码检测:
-> 1. [eslint中文文档](http://eslint.cn/docs/user-guide/configuring)
-> 1. [stylelint文档](https://stylelint.io/)
 
 ## 为什么要使用lint-staged和husky
 
-随着团队的扩大，团队成员的水平可能参差不齐，良好的编码规范是保障项目质量和可维护性的重要因素。通常我们是通过`eslint`和`stylelint`来检查代码的规范与否。那我们何时来运行`eslint`或`stylelint`来检查你的代码呢？为了防止那些不符合规范的狗屎代码已经溜进了你的代码仓库，我们需要在git的pre-commit阶段来检测你的代码。下面就要介绍我们今天的两位主角：
+随着团队的扩大，团队成员的水平可能参差不齐，良好的编码规范是保障项目质量和可维护性的重要因素。通常我们是通过`eslint`和`stylelint`来检查代码的规范与否。那我们何时来运行`eslint`或`stylelint`来检查你的代码呢？为了防止那些不符合规范的狗屎代码已经溜进了你的代码仓库，我们需要在git的pre-commit阶段来检测你的代码。
 
+> 如果你还没有使用过`eslint`或`stylelint`，请先学习如何使用eslint和stylelint来做代码检测:
+> 1. [eslint中文文档](http://eslint.cn/docs/user-guide/configuring)
+> 1. [stylelint文档](https://stylelint.io/)
 
 ### 什么是lint-staged
 
