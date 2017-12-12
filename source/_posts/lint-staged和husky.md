@@ -23,7 +23,7 @@ tags:
 [lint-staged](https://github.com/okonet/lint-staged)可以帮助我们在git staged阶段的文件上执行linters，简单点来说就是当我们运行`eslint`或`stylelint`的命令时，它只会检查我们通过`git add`添加到暂存区的文件。这样可以避免我们每次检查都把整个项目的代码都检查一遍，毕竟这样太蠢了。如果你对git中文件的状态不是很熟可以看下面的这张图：
 
 ![](/images/lifecycle.png)
-
+<!--more-->
 
 ### 什么是husky
 
