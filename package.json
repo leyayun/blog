@@ -7,7 +7,7 @@
     "deploy": "hexo generate -d"
   },
   "hexo": {
-    "version": "3.4.3"
+    "version": "3.3.8"
   },
   "dependencies": {
     "hexo": "^3.2.0",

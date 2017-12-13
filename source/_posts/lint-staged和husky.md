@@ -58,6 +58,6 @@ tags:
 }
 ```
 
-完事！！！so easy有木有？？lint-staged和husky的详细配置，请参考相应的官方文档:
-1. [lint-staged文档](https://github.com/okonet/lint-staged)
-1. [husky文档](https://github.com/typicode/husky)
+lint-staged和husky的详细配置，请参考相应的官方文档:
+- [lint-staged文档](https://github.com/okonet/lint-staged)
+- [husky文档](https://github.com/typicode/husky)
