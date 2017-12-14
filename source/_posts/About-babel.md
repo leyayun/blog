@@ -91,6 +91,24 @@ Preset/Plugin在使用时是可以省略前缀。例如：`"presets": ["babel-pr
 
 > *如上面我们 `.babelrc`中的配置，将按照 `transform-runtime` > `decorators-legacy` > `stage-0` > `env`顺序执行*
 
+### 根据环境使用不同的插件/预设
+在`.babelrc`中你以很轻松的基于环境做差异化配置。
+```
+  {
+    "presets": [...],
+    "plugins": [...],
++   "env": {
++     "development": {
++       "plugins": [...]
++     },
++     "production": {
+        "presets": [...],
++       "plugins": [...]
++     }
+    }
+  }
+```
+> babel会获取`process.env.BABEL_ENV`的值来决定使用那份配置。如果`BABEL_ENV`没有被设置，会降级使用`NODE_ENV`的值。如果这两个变量都没有被设置就使用默认值`development`。
 
 ## 创建preset
 
