@@ -117,8 +117,3 @@ module.exports = {
 - [Babel Handbook](https://github.com/thejameskyle/babel-handbook)
 - [通过开发 Babel 插件理解抽象语法树（AST）](http://www.zcfy.cc/article/347)
 - [The TC39 Process Document](https://tc39.github.io/process-document/)
-
-
-
-
-
