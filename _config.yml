@@ -78,6 +78,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: 45.76.202.179
-  user: yayun
+  host: 172.105.202.83
+  user: root
   root: /usr/sites/blog
