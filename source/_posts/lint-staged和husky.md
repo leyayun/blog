@@ -15,7 +15,7 @@ tags:
 
 ## 为什么要使用lint-staged和husky
 
-良好的编码规范是保障项目质量和可维护性的重要因素，通常我们是通过`eslint`和`stylelint`这些lint工具来检查代码的规范与否。我们假设你已经在你的项目里使用了eslint和stylelint等lint工具，那我们何时来运行这些lint来检查你的代码呢？为了防止那些不符合规范的狗屎代码已经溜进了你的代码仓库，我们需要在git的pre-commit阶段来检测你的代码。
+良好的编码规范是保障项目质量和可维护性的重要因素，通常我们是通过`eslint`和`stylelint`这些lint工具来检查代码的规范与否。我们假设你已经在你的项目里使用了eslint和stylelint等lint工具，那我们何时来运行这些lint来检查你的代码呢？为了防止那些不符合规范的代码溜进你的代码仓库，我们需要在git的pre-commit阶段来检测你的代码。
 
 
 ### 什么是lint-staged
